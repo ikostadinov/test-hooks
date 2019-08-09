@@ -1,0 +1,25 @@
+{
+  "name": "config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamehouse-eu/ivan-dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gamehouse-eu/ivan-dev/issues"
+  },
+  "homepage": "https://github.com/gamehouse-eu/ivan-dev#readme",
+  "dependencies": {
+    "playfab-sdk": "^2.31.190717"
+  }
+}
