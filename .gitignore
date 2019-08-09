@@ -1,5 +1,9 @@
-### IntelliJ IDEA ###
+# Add any directories, files, or patterns you don't want to be tracked by version control
+node_modules
+.DS_Store
+build
+coverage
+npm-debug.log
 .idea
-*.iws
-*.iml
-*.ipr
+dist/
+.gradle/
