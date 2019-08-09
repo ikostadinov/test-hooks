@@ -11,6 +11,7 @@ const generateVersion = () => {
 const setVersion = () => {
     const version = generateVersion();
     fs.writeFileSync(configVersionFile, JSON.stringify({version}));
+    execSync('git add .');
     console.log(`Version updated to ${version}`);
 };
 
