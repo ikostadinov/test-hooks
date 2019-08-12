@@ -1,3 +1,2 @@
 modified row1
 modified row2
-modified row3

@@ -13,6 +13,7 @@ const setVersion = () => {
     fs.writeFileSync(configVersionFile, JSON.stringify({version}));
     execSync('git add .');
     execSync(`git tag ${version}`);
+    execSync('git config --global push.followTags true');
     console.log(`Version updated to ${version}`);
 };
 
