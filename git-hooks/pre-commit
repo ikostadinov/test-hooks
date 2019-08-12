@@ -12,8 +12,7 @@ const setVersion = () => {
     const version = generateVersion();
     fs.writeFileSync(configVersionFile, JSON.stringify({version}));
     execSync('git add .');
-    execSync(`git tag ${version}`);
-    execSync('git config --global push.followTags true');
+    execSync(`git tag -a ${version} -m"set tag ${version}"`);
     console.log(`Version updated to ${version}`);
 };
 
