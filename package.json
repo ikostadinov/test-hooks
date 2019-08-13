@@ -2,6 +2,6 @@
   "name": "ivan-dev",
   "version": "1.0.0",
   "scripts": {
-    "githooks": "git config  core.hooksPath  git-hooks"
+    "githooks": "git config core.hooksPath git-hooks"
   }
 }
